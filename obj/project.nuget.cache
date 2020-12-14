@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dvPITg7TkJA4DSszsitqiLyuDLPfpzkdVSHeB6GKAcNeN/ED6J1nCtyQ+QS+o25Ao6eNH7gcTUXmEpzVVBwwVw==",
+  "dgSpecHash": "6aootqlOwh+xc6l3uiwNBQvtAbhxy3+Qu75yq8OAI1dMfE4w+TVpiZSGAWMqMbYevyNYqxS1BAp7omZI45JcDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vivek\\source\\repos\\DanskeIT.UnitTesting.Demo.Tests\\DanskeIT.UnitTesting.Demo.Tests.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,7 @@
     "C:\\Users\\vivek\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\vivek\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\vivek\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
-    "C:\\Users\\vivek\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512",
+    "C:\\Users\\vivek\\.nuget\\packages\\nunit3testadapter\\3.17.0\\nunit3testadapter.3.17.0.nupkg.sha512",
     "C:\\Users\\vivek\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\vivek\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\vivek\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

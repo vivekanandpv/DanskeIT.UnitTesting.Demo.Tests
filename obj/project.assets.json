@@ -441,7 +441,7 @@
           "build/NUnit.props": {}
         }
       },
-      "NUnit3TestAdapter/3.16.1": {
+      "NUnit3TestAdapter/3.17.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.DotNet.InternalAbstractions": "1.0.0",
@@ -1225,6 +1225,22 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "DanskeIT.UnitTesting.Demo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "NUnit": "3.12.0"
+        },
+        "compile": {
+          "bin/placeholder/DanskeIT.UnitTesting.Demo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DanskeIT.UnitTesting.Demo.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -1880,10 +1896,10 @@
         "nunit.nuspec"
       ]
     },
-    "NUnit3TestAdapter/3.16.1": {
-      "sha512": "wKuxi7G9Gs2I9gnckwtMVzbPIy7vkNj+FafrmQPaYCUguT+se5kmzI3XwsVCXEalWk9pSYZW7roBkNu4ogn3DA==",
+    "NUnit3TestAdapter/3.17.0": {
+      "sha512": "I9MNvK+GM2yXrHPitwZkAZKU9sYI2OO/8wKC+VuBD7V3z+ySQ1pSopX/urr0ooedI8/TIcajYPRO4vGRr7AM8A==",
       "type": "package",
-      "path": "nunit3testadapter/3.16.1",
+      "path": "nunit3testadapter/3.17.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1892,13 +1908,15 @@
         "build/net35/NUnit3.TestAdapter.pdb",
         "build/net35/NUnit3TestAdapter.props",
         "build/net35/nunit.engine.api.dll",
+        "build/net35/nunit.engine.core.dll",
         "build/net35/nunit.engine.dll",
         "build/netcoreapp2.1/NUnit3.TestAdapter.dll",
         "build/netcoreapp2.1/NUnit3.TestAdapter.pdb",
         "build/netcoreapp2.1/NUnit3TestAdapter.props",
         "build/netcoreapp2.1/nunit.engine.api.dll",
+        "build/netcoreapp2.1/nunit.engine.core.dll",
         "build/netcoreapp2.1/nunit.engine.dll",
-        "nunit3testadapter.3.16.1.nupkg.sha512",
+        "nunit3testadapter.3.17.0.nupkg.sha512",
         "nunit3testadapter.nuspec"
       ]
     },
@@ -4613,13 +4631,19 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "DanskeIT.UnitTesting.Demo/1.0.0": {
+      "type": "project",
+      "path": "../DanskeIT.UnitTesting.Demo/DanskeIT.UnitTesting.Demo.csproj",
+      "msbuildProject": "../DanskeIT.UnitTesting.Demo/DanskeIT.UnitTesting.Demo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "DanskeIT.UnitTesting.Demo >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
-      "NUnit3TestAdapter >= 3.16.1"
+      "NUnit3TestAdapter >= 3.17.0"
     ]
   },
   "packageFolders": {
@@ -4648,7 +4672,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\vivek\\source\\repos\\DanskeIT.UnitTesting.Demo\\DanskeIT.UnitTesting.Demo.csproj": {
+              "projectPath": "C:\\Users\\vivek\\source\\repos\\DanskeIT.UnitTesting.Demo\\DanskeIT.UnitTesting.Demo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4671,7 +4699,7 @@
           },
           "NUnit3TestAdapter": {
             "target": "Package",
-            "version": "[3.16.1, )"
+            "version": "[3.17.0, )"
           }
         },
         "imports": [
@@ -4685,6 +4713,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
